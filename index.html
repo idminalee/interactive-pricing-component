@@ -10,15 +10,39 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
 
     <title>Interactive pricing component</title>
     <script defer src="./index.js"></script>
   </head>
   <body>
-    Simple, traffic-based pricing Sign-up for our 30-day trial. No credit card
-    required. Pageviews $ /month Monthly Billing Yearly Billing 25% discount
-    Unlimited websites 100% data ownership Email reports Start my trial
+    <div class="heading-primary">
+      <h1>Simple, traffic-based pricing</h1>
+      <p>Sign-up for our 30-day trial. No credit card required.</p>
+    </div>
+    <div class="pricing-card">
+      <h3 id="views">100K PAGEVIEWS</h3>
+      <div class="slider-container">
+        <input type="range" value="50" class="slider" />
+      </div>
+      <span class="price">16</span>
+      <div class="billing-toggle">
+        <span>Monthly Billing</span>
+        <div class="toggle-switch">
+          <input type="checkbox" />
+          <span class="toggle-button"></span>
+        </div>
+        <span>Yearly Billing</span>
+        <span class="discount-badge">-25%</span>
+      </div>
+
+      <div class="features">
+        <p>Unlimited websites</p>
+        <p>100% data ownership</p>
+        <p>Email reports</p>
+      </div>
+      <button class="button">Start my trial</button>
+    </div>
 
     <div class="attribution">
       Challenge by

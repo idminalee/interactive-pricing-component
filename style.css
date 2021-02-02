@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap');
+
+/* Colours
+- Soft Cyan (Full Slider Bar): #a4f3eb
+- Strong Cyan (Slider Backround): #10d5c1
+- Light Grayish Red (Discount Background): #fdebe6
+- Light Red (Discount Text): #ff8c65
+- Pale Blue (CTA Text): #bcccff
+
+- White (Pricing Component Background): #fff
+- Very Pale Blue (Main Background): #f9faff
+- Light Grayish Blue (Empty Slider Bar): #e9eefa
+- Light Grayish Blue (Toggle Background): #cdd6ee
+- Grayish Blue (Text): #848ead
+- Dark Desaturated Blue (Text & CTA Background): #293356 */
+
+:root {
+  --colour-primary: #10d5c1;
+  --text-colour-primary: #8e84ad;
+  --text-colour-sub: #293356;
+  --colour: #848ead;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+a:link,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /*10px/16px = 62.5 -> 1rem = 10px*/
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+}
