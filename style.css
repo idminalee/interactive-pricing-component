@@ -16,7 +16,7 @@
 
 :root {
   --colour-primary: #10d5c1;
-  --text-colour-primary: #8e84ad;
+  --text-colour-primary: #848ead;
   --text-colour-sub: #293356;
   --colour: #848ead;
 }
@@ -50,19 +50,35 @@ html {
 }
 
 body {
-  padding: 6.4rem 2.4rem;
+  padding: 8rem 2.4rem;
   font-family: 'Manrope', sans-serif;
   font-weight: 400;
+  color: var(--text-colour-primary);
+  text-align: center;
   background-color: #f9faff;
 }
 
+/* Heading */
 .heading-primary {
   position: relative;
+  margin-bottom: 5.2rem;
+}
+
+.heading-primary h1 {
+  margin-bottom: 1.2rem;
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--text-colour-sub);
+}
+
+.heading-primary p {
+  font-size: 1.4rem;
+  line-height: 1.6em;
 }
 
 .circle-pattern {
   position: absolute;
-  top: -2rem;
+  top: -3rem;
   left: 50%;
   transform: translateX(-50%);
   z-index: -10;
