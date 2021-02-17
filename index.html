@@ -27,19 +27,21 @@
     </div>
 
     <div class="pricing-card">
-      <h3 id="views">100K PAGEVIEWS</h3>
+      <h3 id="views"></h3>
       <div class="slider-container">
-        <input type="range" value="50" class="slider" />
+        <input type="range" min="1" max="5" class="slider" step="1" />
       </div>
-      <span class="price">16</span>
+      <span class="price"><span id="price"></span>/ month</span>
       <div class="billing-toggle">
         <span>Monthly Billing</span>
-        <div class="toggle-switch">
-          <input type="checkbox" />
-          <span class="toggle-button"></span>
+        <label class="toggle-switch">
+          <input type="checkbox" class="toggle-checkbox" />
+          <span class="toggle-slider"></span>
+        </label>
+        <div class="badge-wrapper">
+          <span>Yearly Billing</span>
+          <span class="discount-badge">-25%</span>
         </div>
-        <span>Yearly Billing</span>
-        <span class="discount-badge">-25%</span>
       </div>
 
       <div class="features">
